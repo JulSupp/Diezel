@@ -1,4 +1,6 @@
+#include "dzpch.h"
 #include "Application.h"
+
 namespace Diezel {
 	Application::Application()
 	{
