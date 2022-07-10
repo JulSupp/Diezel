@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{CC8C65F3-C4B4-416A-B482-C68A8B091EFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diezel", "Diezel\Diezel.vcxproj", "{EAD43425-92A9-44C6-8DFB-07C2F702385C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD43425-92A9-44C6-8DFB-07C2F702385C}.Debug|x64.ActiveCfg = Debug|x64
+		{EAD43425-92A9-44C6-8DFB-07C2F702385C}.Debug|x64.Build.0 = Debug|x64
+		{EAD43425-92A9-44C6-8DFB-07C2F702385C}.Release|x64.ActiveCfg = Release|x64
+		{EAD43425-92A9-44C6-8DFB-07C2F702385C}.Release|x64.Build.0 = Release|x64
+		{CC8C65F3-C4B4-416A-B482-C68A8B091EFB}.Debug|x64.ActiveCfg = Debug|x64
+		{CC8C65F3-C4B4-416A-B482-C68A8B091EFB}.Debug|x64.Build.0 = Debug|x64
+		{CC8C65F3-C4B4-416A-B482-C68A8B091EFB}.Release|x64.ActiveCfg = Release|x64
+		{CC8C65F3-C4B4-416A-B482-C68A8B091EFB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76E6E3B8-A4BD-4B22-A3DC-2B47999EA22E}
+	EndGlobalSection
+EndGlobal
