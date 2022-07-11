@@ -11,6 +11,12 @@ workspace "Diezel"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Diezel/vendor/GLFW/include"
+
+include "Diezel/vendor/GLFW"
+
 project "Diezel"
 	location "Diezel"
 	kind "SharedLib"
@@ -31,7 +37,14 @@ project "Diezel"
 	includedirs 
 	{
 		"%{prj.name}/vendor/spdlog/include",
-		"%{prj.name}/src"
+		"%{prj.name}/src",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links 
+	{ 
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

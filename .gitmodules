@@ -1,3 +1,6 @@
 [submodule "Diezel/vendor/spdlog"]
 	path = Diezel/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Diezel/vendor/GLFW"]
+	path = Diezel/vendor/GLFW
+	url = https://github.com/TheCherno/glfw.git
