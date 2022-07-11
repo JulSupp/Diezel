@@ -158,11 +158,14 @@
     <ClInclude Include="src\Diezel\Events\KeyEvent.h" />
     <ClInclude Include="src\Diezel\Events\MouseEvent.h" />
     <ClInclude Include="src\Diezel\Log.h" />
+    <ClInclude Include="src\Diezel\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\dzpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Diezel\Application.cpp" />
     <ClCompile Include="src\Diezel\Log.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\dzpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
